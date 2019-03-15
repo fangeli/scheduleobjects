@@ -1,0 +1,9 @@
+{
+  "name": "schedule-objects",
+  "version": "0.0.0",
+  "description": "scheduleObjects",
+  "main": "app.js",
+  "author": {
+    "name": "fangeli"
+  }
+}
