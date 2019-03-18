@@ -29,8 +29,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="dict.js" />
     <Compile Include="report.js" />
     <Compile Include="schedule.js" />
+    <Compile Include="type.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
