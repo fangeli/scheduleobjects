@@ -16,19 +16,19 @@ class schedule {
         this._idCompany = null;
     }
 
-    getId() {
+    getId = function ()  {
         return this._id;
     }
 
-    getIdReport() {
+    getIdReport = function () {
         return this._idReport;
     }
 
-    getJson() {
+    getJson = function () {
         return this._json;
     }
 
-    getStartDate() {
+    getStartDate = function () {
         return this._startDate;
     }
 
