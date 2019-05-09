@@ -14,7 +14,6 @@ class schedule {
         this._timestamp = null;
         this._idUser = null;
         this._idCompany = null;
-        this._requestedDate = null;
     }
 
     getId()  {
@@ -60,10 +59,6 @@ class schedule {
         return this._idCompany;
     }
 
-    getRequestedDate() {
-        return this._requestedDate;
-    }
-    
     setId(value) {
         this._id = value;
     }
@@ -106,10 +101,6 @@ class schedule {
      
     setIdCompany(value) {
         this._idCompany = value;
-    }
-
-    setRequestedDate(value) {
-        this._requestedDate = value;
     }
 }
 
