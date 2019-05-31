@@ -16,7 +16,7 @@ class report {
         this._idCompany = null;
         this._date = null;
         this._timestamp = null;
-        this._deleted = null;
+        this._state = null;
     }
 
     getId() {
@@ -71,8 +71,8 @@ class report {
         return this._timestamp;
     }
 
-    getDeleted() {
-        return this._deleted;
+    getState() {
+        return this._state;
     }
     
 
@@ -128,8 +128,8 @@ class report {
         this._timestamp = value;
     }
 
-    setDeleted(value) {
-        this._deleted = value;
+    setState(value) {
+        this._state = value;
     }
 
     

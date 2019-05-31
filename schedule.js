@@ -16,6 +16,7 @@ class schedule {
         this._idCompany = null;
         this._requestedDate = null;
         this._idType = null;
+        this._note = null;
     }
 
     getId()  {
@@ -69,6 +70,10 @@ class schedule {
         return this._idType;
     }
 
+    getNote() {
+        return this._note;
+    }
+
     setId(value) {
         this._id = value;
     }
@@ -119,6 +124,10 @@ class schedule {
 
     setIdType(value) {
         this._idType = value;
+    }
+
+    setNote(value) {
+        this._note = value;
     }
 }
 
